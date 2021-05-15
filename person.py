@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
+#THIS should be added in multiple commits
 # Exercise to practice git with a simple class
 
-Class Person:
+class Person:
 
     # constructor for Person Class
     def __init__(self, name, age):
