@@ -15,3 +15,4 @@ Class Person:
 person1 = Person("Amanda", 22)
 
 print(person1.name)
+print(person1.age)
