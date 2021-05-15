@@ -14,5 +14,6 @@ class Person:
 
 person1 = Person("Amanda", 22)
 
+# Print the name and the age of the Person
 print(person1.name)
 print(person1.age)
