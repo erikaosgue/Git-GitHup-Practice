@@ -4,7 +4,7 @@
 
 # Exercise to practice git with a simple class
 
-Class Person:
+class Person:
 
     # constructor for Person Class
     def __init__(self, name, age):
