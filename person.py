@@ -14,3 +14,4 @@ person1 = Person("Amanda", 22)
 #ADD THIS TO 6eabe54 commit
 # Print the name and the age of the Person
 print(person1.name)
+print(person1.age)
