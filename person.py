@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-
-
 # Exercise to practice git with a simple class
 
 class Person:
