@@ -19,3 +19,13 @@ person1 = Person("Amanda", 22)
 print(person1.name)
 print(person1.age)
 person1.myfunc()
+
+
+# Creating a Child class to practice inheritance
+
+class Student(Person):
+  pass
+
+
+student1 = Student("Mike", 21)
+student1.myfunc()
