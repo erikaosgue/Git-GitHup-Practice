@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-#THIS should be added in multiple commits
 # Exercise to practice git with a simple class
 
 class Person:
@@ -15,8 +14,17 @@ class Person:
 
 person1 = Person("Amanda", 22)
 
-#ADD THIS TO 6eabe54 commit
 # Print the name and the age of the Person
 print(person1.name)
 print(person1.age)
 person1.myfunc()
+
+
+# Creating a Child class to practice inheritance
+
+class Student(Person):
+  pass
+
+
+student1 = Student("Mike", 21)
+student1.myfunc()
