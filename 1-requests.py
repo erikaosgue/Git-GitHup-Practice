@@ -2,7 +2,10 @@
 
 import requests as req
 
-response = req.get('https://api.github.com/events')
+try:
+    response = req.get('htps://api.github.com/events')
+except req.exceptions.RequestException as e:
+    raise SystemExit(e)
 
 # Response code
 print("Response code -> r")
@@ -38,3 +41,7 @@ print(response.raise_for_status())
 # Check for status code
 print("\nCheck status code -> r.status_code")
 print(response.status_code)
+
+# check for response status
+print("\nCheck for status ok with -> r.ok")
+print(response.ok)
