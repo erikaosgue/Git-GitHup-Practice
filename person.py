@@ -12,7 +12,6 @@ class Person:
     def myfunc(self):
         print("Hello my name is " + self.name)
 
-
 person1 = Person("Amanda", 22)
 
 # Print the name and the age of the Person
