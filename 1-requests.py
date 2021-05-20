@@ -3,7 +3,7 @@
 import requests as req
 
 try:
-    response = req.get('htps://api.github.com/events')
+    response = req.get('https://api.github.com/events')
 except req.exceptions.RequestException as e:
     raise SystemExit(e)
 
